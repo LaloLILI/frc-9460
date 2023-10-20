@@ -1,30 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRC #9460</title>
-
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="css/base.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <title>FRC #9460</title>
 </head>
 <body>
-    
-    <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="https://www.instagram.com/steelbullsfrc/">
-      <img src="../../frc-9460/assets/image/bullslogo-removebg.png" alt="Logo" class="d-inline-block align-text-top" width="130px" height="125px">
-    </a>
-    <a class="nav-link active" aria-current="page" href="#">FRC</a>
-    <a class="nav-link active" aria-current="page" href="#">Sobre nós</a>
-    <a class="nav-link active" aria-current="page" href="#">Oque fazemos</a>
-    <a class="nav-link active" aria-current="page" href="#">Equipes</a>
-  </div>
-</nav>
+  <!-- Barra de navegação comum -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F7AD45;">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.instagram.com/steelbullsfrc/">
+        <img src="/frc-9460/assets/image/bullslogo-removebg.png" alt="Logo" class="d-inline-block align-text-top" width="130px" height="125px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mascote.html">Mascote</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="equipe.html">Equipe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <!-- Página Home -->
+   <div class="container mt-4">
+    <h1>Inicio</h1>
+    <p>A "First" é uma organização internacional dedicada à promoção da educação e da aprendizagem prática em ciência, tecnologia, engenharia e matemática (STEM) para jovens. O nome "First" é uma sigla que significa "For Inspiration and Recognition of Science and Technology", que pode ser traduzido como "Pela Inspiração e Reconhecimento da Ciência e Tecnologia".</p>
+    <p>Fundada em 1989 por Dean Kamen, um inventor e empresário norte-americano, a First tem como objetivo principal inspirar jovens a se interessarem por STEM e a desenvolverem habilidades nessas áreas, preparando-os para carreiras futuras em ciência e tecnologia. A organização acredita que a aprendizagem prática e a participação em competições baseadas em STEM são formas eficazes de ensinar e motivar os jovens.</p>
+    <p>Uma das atividades mais conhecidas da First são as competições de robótica, nas quais equipes de estudantes projetam, constroem e programam robôs para realizar tarefas específicas em um ambiente competitivo. O programa FIRST Robotics Competition (FRC) é um dos eventos mais destacados, atraindo milhares de equipes de todo o mundo.</p>
+    <p>A First também oferece outras iniciativas, como o FIRST LEGO League (FLL), que permite a estudantes mais jovens explorar conceitos de engenharia e programação usando peças de LEGO e robôs LEGO Mindstorms. Além disso, a organização promove programas para jovens de todas as idades, desde o ensino fundamental até o ensino médio.</p>
+    <p>O impacto da First é significativo, pois inspira o aprendizado de STEM, promove habilidades de trabalho em equipe, pensamento crítico e resolução de problemas, e capacita jovens a se tornarem futuros líderes e inovadores no campo da tecnologia. Além disso, a First tem parcerias com empresas e instituições de ensino superior, o que proporciona oportunidades adicionais de educação e carreira para os participantes.</p>
+    <p>No geral, a First desempenha um papel fundamental na educação de jovens, incentivando o interesse por ciência e tecnologia, e preparando a próxima geração de cientistas, engenheiros e inovadores para enfrentar os desafios do futuro.</p>
 
+    <!-- Carrossel de imagens -->
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/frc-9460/assets/image/imagem1.jpg" class="d-block w-100" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+          <img src="/frc-9460/assets/image/imagem2.jpg" class="d-block w-100" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+          <img src="/frc-9460/assets/image/imagem3.jpg" class="d-block w-100" alt="Imagem 3">
+        </div>
+        <div class="carousel-item">
+          <img src="/frc-9460/assets/image/imagem4.jpg" class="d-block w-100" alt="Imagem 4">
+        </div>
+        <div class="carousel-item">
+          <img src="/frc-9460/assets/image/imagem5.jpg" class="d-block w-100" alt="Imagem 5">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </a>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
